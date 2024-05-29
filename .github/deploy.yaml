@@ -1,0 +1,4 @@
+# Add API key
+- name: Add API key secret to file
+    env:
+        API_KEY_SECRET: ${{ secrets.API_KEY_SECRET }}
