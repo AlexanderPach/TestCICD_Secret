@@ -26,4 +26,3 @@ jobs:
         - name: Run a script with a secret
           env:
             REACT_APP_API_KEY_SECRET: ${{ secrets.API_KEY_SECRET }}
-          run: npm start
